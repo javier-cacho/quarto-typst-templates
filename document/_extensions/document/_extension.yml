@@ -1,0 +1,15 @@
+title: Typst Document 
+author: J. Javier Cacho 
+version: "0.0.1"
+quarto-required: ">=1.9.18"
+contributes:
+  formats:
+    typst:
+      template-partials:
+        - typst-template.typ
+        - typst-show.typ
+       
+      code-line-numbers: true
+
+      tbl-cap-location: bottom
+      tbl-po: "H"
